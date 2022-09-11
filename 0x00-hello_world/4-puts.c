@@ -4,7 +4,7 @@
  * This is a comment
  *
  */
-int main()
+int main(const char)
 {
 	char Mystr = "Programming is like building a multilingual puzzle";
 
