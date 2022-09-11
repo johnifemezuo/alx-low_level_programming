@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	printf("Holtern School\n");
 	return (0);
 }
