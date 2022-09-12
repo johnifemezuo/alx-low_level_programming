@@ -7,5 +7,6 @@
  */
 int main(void)
 {
-	    return (0);
+	printf("Print to standard output.\n");    
+	return (0);
 }
