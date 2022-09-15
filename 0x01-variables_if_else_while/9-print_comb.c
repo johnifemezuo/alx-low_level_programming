@@ -3,19 +3,18 @@
 /**
  * main - Entry point
  *
- * 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int num = 0;
 
-	do{
-		putchar(num);
+	while (num < 10)
+	{
 		num = num + 1;
+		putchar(num);
 	}
-	while (num < 10);
-
 	putchar('\n');
 	return (0);
 }
