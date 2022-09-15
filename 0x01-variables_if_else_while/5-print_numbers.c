@@ -8,15 +8,13 @@
 
 int main(void)
 {
-	int text;
 	int num = 0;
 
 	while (num < 10)
 	{
-		text += num;
-		num++;
-		printf("%d", text);
-		printf("\n");
+		printf("%d", num);
+		num = num + 1;
 	}
+	printf("\n");
 	return (0);
 }
