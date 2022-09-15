@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int ch = 'a';
+	int ch = 'z';
 
-	while (ch <= 'z')
+	while (ch >= 'a')
 	{
 	putchar(ch);
-	ch++;
+	ch--;
 	}
 	putchar('\n');
 	return (0);
