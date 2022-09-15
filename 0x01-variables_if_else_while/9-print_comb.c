@@ -2,17 +2,19 @@
 
 /**
  * main - Entry point
+ *
  * 
- * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int ch = "0123456789abcdef"
+	int num = 0;
 
-	while (10 = 10)
-	{
-		putchar(ch);
+	do{
+		putchar(num);
+		num = num + 1;
 	}
+	while (num < 10);
 
 	putchar('\n');
 	return (0);
