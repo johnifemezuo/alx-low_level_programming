@@ -2,7 +2,7 @@
 
 /**
  * print_number - prints an integer
- * @c: tracked var
+ * @n: tracked var
  */
 
 void print_number(int n)
