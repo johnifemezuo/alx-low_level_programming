@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _strcat - concatinate 2 strings.
+ * _strncat - concatinate 2 strings.
  * @dest: first string.
+ * @n: does something
  * @src: second string.
  * Return: string.
  */
@@ -26,4 +27,4 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	return (dest);
-}	
+}
