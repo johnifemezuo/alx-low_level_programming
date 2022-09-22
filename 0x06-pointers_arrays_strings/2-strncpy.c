@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncy - copy src into dest.
+ * *_strncpy - copy src into dest.
  * @dest: first string.
  * @src: frist string.
- * @c: the number of bytes to use from src.
+ * @n: the number of bytes to use from src.
  * Return: string.
  */
 
@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 				i++;
 			}
 		}
-		else 
+		else
 		{
 			dest[i] = src[k];
 			k++;
