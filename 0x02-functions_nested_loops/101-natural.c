@@ -14,6 +14,6 @@ int main(void)
 						sum = sum + y;
 					}
 		}
-	print("%d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
